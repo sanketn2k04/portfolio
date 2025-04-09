@@ -8,6 +8,7 @@ import SparklIcon from "../assets/icons/sparkle.svg"
 
 
 export const HeroSection = () => {
+  
   return (
     <div className="py-32 mid:py-48 lg:py-60 relative z-0">
       <div
