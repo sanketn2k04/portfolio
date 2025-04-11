@@ -90,7 +90,7 @@ export const HeroSection = () => {
           </div> */}
         </div>
         <div className="max-w-lg mx-auto">
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-4 tracking-wide">Hi, I'm Sanket Nabade.</h1>
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-4 tracking-wide">Hi, I&apos;m Sanket Nabade.</h1>
 
           {/* Replace the outer <p> with a <div> */}
           <div className="mt-4 text-center text-white/60 md:text-large">
@@ -119,7 +119,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10" onClick={handleletsconnect}>
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>
