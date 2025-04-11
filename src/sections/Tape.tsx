@@ -1,7 +1,12 @@
 import StarIcon from "@/assets/icons/star.svg"
 import { Fragment } from "react"
 
-const words = ["Performant", "Asscessible", "Secure", "Interactive", "Scalable", "Reliable", "Asscessible", "Secure", "Interactive", "Scalable", "Reliable"]
+const words = [
+  "Python", "C++", "JavaScript", "TypeScript", "SQL",
+  "React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "JWT",
+  "Git", "Docker", "AWS", "Postman", "Tableau", "Cloudinary",
+  "DSA", "OOP", "DBMS", "OS"
+]
 
 export const TapeSection = () => {
   return (
@@ -27,4 +32,4 @@ export const TapeSection = () => {
     </div>
   )
 };
-//div : minor changes in tape.tsx
+
