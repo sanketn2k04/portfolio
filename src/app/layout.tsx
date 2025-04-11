@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import {Inter , Calistoga} from 'next/font/google'
+import { Inter, Calistoga } from 'next/font/google'
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
+// Remove the direct import
+// import MeomojiSmile from "../../public/assets/memoji-smile.png"
 
-
-const inter = Inter({subsets:["latin"], variable:"--font-sans"});
-const calistoga = Calistoga({subsets:["latin"], variable:"--font-serif", weight: "400"});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weight: "400" });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Portfolio",
+  description: "My personal portfolio website",
+  openGraph: {
+    images: '/public/assets/memoji-smile.png',
+  },
 };
 
 export default function RootLayout({
@@ -19,12 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body 
-      className={twMerge(
+      <body
+        className={twMerge(
           inter.variable,
           calistoga.variable,
           "bg-gray-900 text-white antialiased font-sans")}
-          >
+      >
         {children}
       </body>
     </html>

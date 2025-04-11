@@ -103,7 +103,7 @@ export const HeroSection = () => {
             <p>
               Passionate about clean code, dirty terminal hacks, and semicolon debates.
               <span className="text-xs bg-gray-800 text-gray-200 px-2 py-0.5 rounded-md font-mono">
-                v21.0.0-beta
+                v20.7.0-beta
               </span>
             </p>
           </div>
