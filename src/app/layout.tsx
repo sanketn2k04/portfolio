@@ -12,7 +12,9 @@ export const metadata: Metadata = {
   title: "Portfolio",
   description: "My personal portfolio website",
   openGraph: {
+
     images: '/public/assets/memoji-smile.png',
+
   },
 };
 
