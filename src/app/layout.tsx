@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My personal portfolio website",
+  title: "Sanket Nabade",
+  description: "Sanket Nabade Portfolio",
   openGraph: {
 
     images: '/public/assets/memoji-smile.png',
