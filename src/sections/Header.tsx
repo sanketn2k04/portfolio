@@ -30,7 +30,7 @@ export const Header = () => {
         >Contact</a>
 
         <a
-          href="https://github.com/sanketn2k04"
+          href="https://github.com/sanketnabade1"
           className={`nav-item ${activeLink === 'GitHub' ? 'bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900' : ''}`}
           onClick={() => handleNavClick('GitHub')}
           target="_blank"
