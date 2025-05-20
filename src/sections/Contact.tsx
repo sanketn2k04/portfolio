@@ -20,8 +20,8 @@ export const ContactSection = () => {
           }}></div>
           <div className='flex flex-col md:flex-row gap-8 md:gap-16 items-center'>
             <div>
-              <h2 className='font-serif text-2xl md:text-3xl'>Let's have a chat!</h2>
-              <p className='text-sm mt-2 md:text-base'>I’ve built things that live on the internet, fixed bugs at 3 AM, and argued with semicolons more than people. Whether it’s building full-stack apps or brainstorming your next big idea — I’m all ears. Let’s create something cool together!
+              <h2 className='font-serif text-2xl md:text-3xl'>Let&apos;s have a chat!</h2>
+              <p className='text-sm mt-2 md:text-base'>I&apos;ve built things that live on the internet, fixed bugs at 3 AM, and argued with semicolons more than people. Whether it&apos;s building full-stack apps or brainstorming your next big idea — I&apos;m all ears. Let&apos;s create something cool together!
               </p>
             </div>
             <div>
